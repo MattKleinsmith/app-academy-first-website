@@ -1,0 +1,28 @@
+body {
+  background-color: #181a1b;
+  color: #e8e6e3;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+* {
+  border-color: rgb(140, 130, 115) !important;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+a,
+a:visited {
+  color: #e8e6e3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cccac7;
+}
