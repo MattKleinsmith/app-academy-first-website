@@ -1,8 +1,21 @@
+html {
+  color-scheme: dark !important;
+}
+
 body {
-  background-color: #181a1b;
   color: #e8e6e3;
   font-family: Helvetica;
   font-size: 20px;
+}
+
+button {
+  font-family: Helvetica;
+  font-size: 40px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-left: 10px;
+  padding-right: 12px;
+  color: #e8e6e3;
 }
 
 * {
@@ -25,4 +38,56 @@ a:visited {
 
 a:hover {
   color: #cccac7;
+}
+
+.wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  width: 700px;
+}
+
+fieldset {
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text] {
+  font-size: 40px;
+}
+
+input[type=checkbox] {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+label {
+  font-size: 40px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+label[for=follow-up] {
+  margin-left: 10px;
+}
+
+.follow-up {
+  margin-top: 30px;
+}
+
+#email {
+  margin-bottom: 30px;
+}
+
+textarea {
+  height: 5em;
+  width: 100%;
+  font-size: 30px;
+  color: #e8e6e3;
 }
