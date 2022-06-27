@@ -1,25 +1,76 @@
+/**********/
+/* Colors */
+/**********/
+
 html {
   color-scheme: dark !important;
 }
 
 body {
-  color: #e8e6e3;
+  background-color: #181a1b;
+  color: rgb(216, 212, 207);
+}
+
+button {
+  color: rgb(216, 212, 207);
+}
+
+* {
+  border-color: rgb(140, 130, 115) !important;
+}
+
+a,
+a:visited {
+  color: rgb(216, 212, 207);
+}
+
+a:hover {
+  color: #b1aeab;
+}
+
+input,
+textarea {
+  color: rgb(216, 212, 207);
+}
+
+/********/
+/* Font */
+/********/
+
+body {
   font-family: Helvetica;
   font-size: 20px;
 }
 
 button {
   font-family: Helvetica;
-  font-size: 40px;
+  font-size: 24px;
+  color: white;
+}
+
+textarea {
+  font-size: 24px;
+}
+
+input[type=text] {
+  font-size: 24px;
+}
+
+.h2 {
+  font-size: 1.5em;
+}
+
+/************************************/
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+button {
   padding-top: 2.5px;
   padding-bottom: 2.5px;
   padding-left: 10px;
   padding-right: 12px;
-  color: #e8e6e3;
-}
-
-* {
-  border-color: rgb(140, 130, 115) !important;
 }
 
 .nav {
@@ -32,32 +83,21 @@ button {
 
 a,
 a:visited {
-  color: #e8e6e3;
   text-decoration: none;
 }
 
-a:hover {
-  color: #cccac7;
-}
-
-.wrapper {
-  margin-top: 10px;
+.center {
   display: flex;
   justify-content: center;
 }
 
-.body {
+.article {
   width: 700px;
 }
 
-fieldset {
-  border: 0px;
+form {
   display: flex;
   flex-direction: column;
-}
-
-input[type=text] {
-  font-size: 40px;
 }
 
 input[type=checkbox] {
@@ -67,9 +107,8 @@ input[type=checkbox] {
 }
 
 label {
-  font-size: 40px;
   vertical-align: middle;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-top: 30px;
 }
 
@@ -88,6 +127,4 @@ label[for=follow-up] {
 textarea {
   height: 5em;
   width: 100%;
-  font-size: 30px;
-  color: #e8e6e3;
 }
