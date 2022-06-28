@@ -18,20 +18,20 @@
   <div class="center">
     <div class="article">
       <h1>Advice from you</h1>
-      <form>
-        <label class="h2 margin-top-0">Which skill would you advise targetting?</label>
-        <input type="text">
+      <form name="advice" method="POST" netlify>
+        <label for="skill" class="h2 margin-top-0">Which skill would you advise targetting?</label>
+        <input name="skill" id="skill" type="text">
 
         <label for="elaboration" class="h2">Please say more</label>
-        <textarea id="elabloration"></textarea>
+        <textarea name="elaboration" id="elaboration"></textarea>
 
         <div class="follow-up">
-          <input id="follow-up" type="checkbox">
+          <input name="follow-up" id="follow-up" type="checkbox">
           <label for="follow-up" class="h2">May I follow up?</label>
         </div>
 
         <label for="email" class="h2">If so, what is your email?</label>
-        <input id="email" type="text">
+        <input name="email" id="email" type="text">
 
         <button type="submit">Send</button>
       </form>
